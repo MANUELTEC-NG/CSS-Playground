@@ -1,0 +1,41 @@
+.header{
+  height: 7rem;
+
+  border-bottom: #333333;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: .3rem;
+  align-items: center;
+  font-size: 1.4rem;
+
+}
+
+.container{
+  max-width: 120rem;
+  min-height: 50rem;
+  margin: 8rem auto;
+  background-color: var(--color-grey-light-2);
+  box-shadow: var(--box-shadow-dark);
+}
+
+.nav-side{
+  background-color: var(--color-grey-dark-1);
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 18%;
+
+
+
+}
+
+.content{
+  display: flex;
+}
+
+.main-content{
+  //background-color: #f4f2f2;
+  background-color: darkslateblue;
+  flex-grow: 1;
+
+}
+
